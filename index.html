@@ -6,14 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content=" this is as application form for Pullman melbourne hotels">
     <title>Job application form</title>
+     <style>
+    body {
+      background-image: url('nature blur image.png'); /* Put your image file in the same folder */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      color: #000;
+    }
+  </style>
+
+         
+       
 </head>
 
 <body>
     <h1><center>Job Application Form</center> </h1>
 </body>
-    <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your
+   <center> <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet your
         criteria and send your application by filling out the Job Application Form
-    </p>
+    </p></center>
+    
     <h2><center>New Member Registration form</center></h2>
 
     <form action="https://formsubmit.co/namratashrestha748@gmail.com" method="POST">
@@ -21,10 +35,11 @@
           <input type="hidden" name="_captcha" value="false">
 
 
-        <label for="username"> Enter your Username</label>
+        <center><label for="username"> Enter your Username</label>
         <input type="text" name="username" placeholder="Enter your username" id="username">
         <br>
-        <div>
+        <div> Gender: 
+
             <input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender" value="female">
@@ -67,7 +82,7 @@
         <br>
         <div>
             <label for="position">Interested Position:</label>
-            <input type="text" id="position" name="position">
+            <input type="text" id="position" name="position"> </center>
 
 
 
@@ -76,7 +91,7 @@
 
         <h2><center>Employment Eligibility</center></h2>
 
-        <div>
+        <center><div>
             <p>Are you an Australian citizen?</p>
             <input type="radio" id="citizenYes" name="citizen" value="Yes">
             <label for="citizenYes">Yes</label>
@@ -123,7 +138,7 @@
         <div>
             <label for="convictionExplanation">If yes, please explain:</label>
             <input type="text" id="convictionExplanation" name="convictionExplanation">
-        </div>
+        </div></center>
 
 
         <br>
@@ -131,13 +146,16 @@
 
         <h2> <center>Education</center></h2>
 
-        <div>
+        <center>
+            <div>
             <label for="highSchool">High School:</label>
             <input type="text" id="highSchool" name="highSchool">
+            
 
             <label for="highSchoolCity">City/State:</label>
             <input type="text" id="highSchoolCity" name="highSchoolCity">
         </div>
+
         <br>
 
         <div>
@@ -199,7 +217,7 @@
 
         <div>
             <input type="submit" value="Submit Now">
-        </div>
+        </div></center>
 
 </form>
 
